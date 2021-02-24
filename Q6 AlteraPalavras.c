@@ -10,7 +10,6 @@ int main(void) {
   char *p2;
   p1 = malloc(sizeof(char) * N);
   p2 = malloc(sizeof(char) * N);
-  printf("Por favor nao adiciona espaco quando for escrever a string que o codigo buga e acha que sao duas strings aaaaaa \n");
   printf("---------------------------------\n");
   printf("Informe a primeira string: ");
   scanf("%s", p1);
